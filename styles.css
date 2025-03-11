@@ -46,3 +46,7 @@ header {
 .projects {
     justify-content: space-around;
 }
+
+.contact {
+    text-align: center;
+}
