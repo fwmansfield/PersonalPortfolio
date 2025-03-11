@@ -2,6 +2,10 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
     </head>
     <body>
         <header>
@@ -43,7 +47,7 @@
             </p>
             <p>Follow me on social media:</p>
             <p>
-                <a href="https://www.linkedin.com/in/fred-mansfield-jr/" target="_blank">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/fred-mansfield-jr/" target="_blank" alt="Professional Man">LinkedIn</a>
             </p>
         </article>
         <section >
@@ -59,8 +63,33 @@
                 <div>Scrum@Scale</div>
              </div>
         </section>
-        <section id="projects">
+        <section class="projects">
             <!-- Showcase a few projects with images and brief descriptions-->
+            <div class="card" style="width: 18rem;">
+                <img src="claims.png" class="card-img-top" alt="car accident">
+                <div class="card-body">
+                  <h5 class="card-title">eClaims</h5>
+                  <p class="card-text">A fully functional, Web2.0 application that directly connects to Liberty's Personal Lines Claims system.</p>
+                  <a href="https://eservice.libertymutual.com/account/auth" class="btn btn-primary">Visit eClaims</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="ll.png" class="card-img-top" alt="torch">
+                <div class="card-body">
+                  <h5 class="card-title">myLiberty Global Rollout</h5>
+                  <p class="card-text">A tailored-to-you Intranet experience. Insourced from a 3rd party and deployed globally for a fraction of the cost.</p>
+                  <a href="https://mylibertyhome.lmig.com/" class="btn btn-primary">Visit myLiberty</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="limu.png" class="card-img-top" alt="limu emu">
+                <div class="card-body">
+                  <h5 class="card-title">Concierge</h5>
+                  <p class="card-text">A home-grown application to consolidate the Employee Performance processes and experience.</p>
+                  <a href="https://concierge.lmig.com/" class="btn btn-primary">Visit Concierge</a>
+                </div>
+            </div>
+
         </section>
         <footer id="contact">
             <!-- Contact info-->
