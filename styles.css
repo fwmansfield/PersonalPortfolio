@@ -18,3 +18,13 @@ li {
     background-color: greenyellow;
 }
 
+.profile-img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+#about-me {
+    text-align: center;
+    margin-bottom: 20px;
+}
