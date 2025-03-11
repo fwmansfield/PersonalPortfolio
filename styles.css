@@ -8,20 +8,21 @@
 header {
     background-color: lightblue;
 }
-.flex-container {
+.flex-container,
+.skills {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container{
     background-color: gray;
 }
+
 .flex-container > div {
     margin: 10px;
     padding: 20px;
     background-color: aqua;
-}
-
-li {
-    margin: 10px;
-    padding: 20px;
-    background-color: greenyellow;
+    flex: wrap;
 }
 
 .profile-img {
@@ -35,6 +36,8 @@ li {
     margin-bottom: 20px;
 }
 
-#skills {
-    flex-wrap: wrap;
+.skills > div {
+    margin: 10px;
+    padding: 20px;
+    background-color: greenyellow;
 }
