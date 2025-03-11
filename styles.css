@@ -44,5 +44,5 @@ header {
 }
 
 .projects {
-
+    justify-content: space-around;
 }
