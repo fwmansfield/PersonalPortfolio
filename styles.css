@@ -8,3 +8,13 @@
 header {
     background-color: lightblue;
 }
+.flex-container {
+    display: flex;
+    background-color: gray;
+}
+li {
+    margin: 10px;
+    padding: 20px;
+    background-color: greenyellow;
+}
+
