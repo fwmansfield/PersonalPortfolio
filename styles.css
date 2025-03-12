@@ -5,34 +5,31 @@
     box-sizing: border-box;
     }
 
-.navbar,
+.flex-container,
 .skills,
 .projects {
     display: flex;
     flex-wrap: wrap;
 }
 
-.navbar {
-    margin: 10px;
-    padding: 20px;
+.flex-container {
     background-color: lightgray;
     color: black;
 }
 
-.navbar > div {
-    opacity: .2;
+.flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    opacity: .6;
 }
 
-.navbar > div:hover {
+.flex-container > div:hover {
     background-color: gray;
     color: black;
     flex: wrap;
     opacity: 1;
 }
-a:hover {
-    background-color: gray;
-    color: white;
-}
+
 .profile-img {
     width: 150px;
     height: auto;
