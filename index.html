@@ -9,10 +9,10 @@
     </head>
     <body>
         <header>
-            <nav>
-                <div class="flex-container">
+            <!-- Create the nav bar -->
+            <nav class="flex-container" id="home">
                     <div>
-                        <a href="#">Home</a>  
+                        <a href="#home">Home</a>  
                     </div>
                     <div>
                         <a href="#aboutme">About Me</a>
@@ -26,13 +26,14 @@
                     <div>
                         <a href="#contacts">Contacts</a>
                     </div>
-                </div>
             </nav>
         </header>
+        <!-- Create the About Me portion of the site -->
         <article class="about-me" id="aboutme">
             <h1>
                 About Me:
-            </h1><!-- Brief bio and a profile picture-->
+            </h1> 
+            <!-- Use my LinkedIn profile pic to practice referncing online images -->
             <img src="https://media.licdn.com/dms/image/v2/C4E03AQEWwWB9AGCCsA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1576080200345?e=1747267200&v=beta&t=JXTpaXsf3NhJGMCuhKu7pIuYywK-HeIdgejrPCBdBjM" alt="A Person" class="profile-img" width="280" height="280">
             <h1>
                 Fred Mansfield Jr.
@@ -42,7 +43,8 @@
             </p>
             <p>Follow me on social media:</p>
             <p>
-                <a href="https://www.linkedin.com/in/fred-mansfield-jr/" target="_blank" alt="Professional Man"><img src="linkedin.png" alt="LinkedIn Logo" width="41px" height="41px"></a>
+                <!-- Use the LinkedIn icon logo as a link to their site -->
+                <a href="https://www.linkedin.com/in/fred-mansfield-jr/" target="_blank"><img src="linkedin.png" alt="LinkedIn Logo" width="41px" height="41px"></a>
             </p>
         </article>
         <section id="skills">
@@ -57,6 +59,7 @@
                 <div>Agile</div>
                 <div>Scrum</div>
                 <div>Scrum@Scale</div>
+                <!-- See if anyone gets the Napolean Dynamite reference -->
                 <div>Bo Staff Skills</div>
                 <div>Nunchuck Skills</div>
              </div>
@@ -65,7 +68,8 @@
             Example Projects
         </h1>
         <section class="projects" id="projects">
-            <!-- Showcase a few projects with images and brief descriptions-->
+            <!-- Showcase a few projects with images and brief descriptions
+            Using Bootstrap since I've never used it in a project (lots of reused code here)-->
             <div class="card" style="width: 18rem;">
                 <img src="claims.png" class="card-img-top" alt="car accident">
                 <div class="card-body">
@@ -94,7 +98,7 @@
         </section>
         <br>
         <footer class="contact" id="contacts">
-            <!-- Contact info-->
+            <!-- Contact info -->
             <h3>Contact me on <a href="https://github.com/fwmansfield"><img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub Logo" width="41px" height="41px">GitHub</a></h3>
         </footer>
     </body>

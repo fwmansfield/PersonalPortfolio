@@ -5,6 +5,7 @@
     box-sizing: border-box;
     }
 
+/* Use Flex for Nav, Skills and Projects */
 .flex-container,
 .skills,
 .projects {
@@ -12,17 +13,19 @@
     flex-wrap: wrap;
 }
 
+/* Color for the nav bar */
 .flex-container {
-    background-color: lightgray;
-    color: black;
+    background-color: lightgray; 
 }
 
+/* Spacing and opacity for the Nav items */
 .flex-container > div {
     margin: 10px;
     padding: 20px;
     opacity: .6;
 }
 
+/* Change Nav Menu items on hover over */
 .flex-container > div:hover {
     background-color: gray;
     color: black;
@@ -30,17 +33,20 @@
     opacity: 1;
 }
 
+/* Size and shape of the profile image */
 .profile-img {
     width: 150px;
     height: auto;
     border-radius: 50%;
 }
 
+/* Styling for the About Me section */
 .about-me {
     text-align: center;
     margin-bottom: 20px;
 }
 
+/* Set the inital settings for individual skills */
 .skills > div {
     margin: 10px;
     padding: 20px;
@@ -48,21 +54,30 @@
     color: black;
     opacity: .5;
 }
+
+/* Change the color and opacity of the individual skills during hover */
 .skills > div:hover {
     background-color: gray;
     color: white;
     opacity: 1;
 }
+
+/* Evenly distribute cards across the screen */
 .projects {
     justify-content: space-around;
 }
+
+/* Have cards satart off with 50% opacity */
 .card{
     opacity: .5;
 }
+
+/* Remove opacity on card hover */
 .card:hover{
     opacity: 1;
 }
 
+/* Center the Contact section */
 .contact {
     text-align: center;
 }
