@@ -5,34 +5,41 @@
     box-sizing: border-box;
     }
 
-header {
-    background-color: lightblue;
-}
-.flex-container,
+.navbar,
 .skills,
 .projects {
     display: flex;
     flex-wrap: wrap;
 }
 
-.flex-container{
-    background-color: gray;
-}
-
-.flex-container > div {
+.navbar {
     margin: 10px;
     padding: 20px;
-    background-color: aqua;
-    flex: wrap;
+    background-color: lightgray;
+    color: black;
 }
 
+.navbar > div {
+    opacity: .2;
+}
+
+.navbar > div:hover {
+    background-color: gray;
+    color: black;
+    flex: wrap;
+    opacity: 1;
+}
+a:hover {
+    background-color: gray;
+    color: white;
+}
 .profile-img {
     width: 150px;
     height: auto;
     border-radius: 50%;
 }
 
-#about-me {
+.about-me {
     text-align: center;
     margin-bottom: 20px;
 }
@@ -41,10 +48,12 @@ header {
     margin: 10px;
     padding: 20px;
     background-color: lightgray;
+    color: black;
     opacity: .5;
 }
 .skills > div:hover {
     background-color: gray;
+    color: white;
     opacity: 1;
 }
 .projects {
