@@ -13,12 +13,12 @@
     flex-wrap: wrap;
     margin: 10px
 }
-a:hover {
-    color: green;
+a {
+    color: black;
 }
 
 h1 {
-    margin: 50px
+    text-align: center;
 }
 
 /* Color for the nav bar */
@@ -36,7 +36,6 @@ h1 {
 /* Change Nav Menu items on hover over */
 .flex-container > div:hover {
     background-color: gray;
-    color: black;
     flex: wrap;
     opacity: 1;
 }
