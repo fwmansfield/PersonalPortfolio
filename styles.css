@@ -53,6 +53,9 @@ h1 {
     margin-bottom: 20px;
 }
 
+.skills {
+    justify-content: center;
+}
 /* Set the inital settings for individual skills */
 .skills > div {
     margin: 10px;
