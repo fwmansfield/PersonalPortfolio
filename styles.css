@@ -11,9 +11,14 @@
 .projects {
     display: flex;
     flex-wrap: wrap;
+    margin: 10px
 }
 a:hover {
     color: green;
+}
+
+h1 {
+    margin: 50px
 }
 
 /* Color for the nav bar */
