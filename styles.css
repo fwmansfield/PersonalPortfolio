@@ -46,6 +46,12 @@ header {
 .projects {
     justify-content: space-around;
 }
+.card{
+    opacity: .5;
+}
+.card:hover{
+    opacity: 1;
+}
 
 .contact {
     text-align: center;
