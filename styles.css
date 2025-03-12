@@ -40,9 +40,13 @@ header {
 .skills > div {
     margin: 10px;
     padding: 20px;
-    background-color: greenyellow;
+    background-color: lightgray;
+    opacity: .5;
 }
-
+.skills > div:hover {
+    background-color: gray;
+    opacity: 1;
+}
 .projects {
     justify-content: space-around;
 }
