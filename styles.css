@@ -8,8 +8,12 @@
 /* Use Flex for Nav, Skills and Projects */
 .flex-container,
 .skills,
-.projects {
+.projects,
+.contact {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     margin: 10px
 }
