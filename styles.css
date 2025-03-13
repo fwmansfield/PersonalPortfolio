@@ -7,6 +7,7 @@
 
 /* Use Flex for Nav, Skills and Projects */
 .flex-container,
+.about-me,
 .skills,
 .projects,
 .contact {
@@ -15,7 +16,6 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 10px
 }
 a {
     color: black
@@ -27,6 +27,7 @@ h1 {
 
 /* Color for the nav bar */
 .flex-container {
+    justify-content: flex-start;
     background-color: lightgray; 
 }
 
@@ -40,7 +41,6 @@ h1 {
 /* Change Nav Menu items on hover over */
 .flex-container > div:hover {
     background-color: gray;
-    flex: wrap;
     opacity: 1;
 }
 
@@ -53,13 +53,10 @@ h1 {
 
 /* Styling for the About Me section */
 .about-me {
-    text-align: center;
+    flex-direction: column;
     margin-bottom: 20px;
 }
 
-.skills {
-    justify-content: center;
-}
 /* Set the inital settings for individual skills */
 .skills > div {
     margin: 10px;
@@ -91,10 +88,6 @@ h1 {
     opacity: 1;
 }
 
-/* Center the Contact section */
-.contact {
-    text-align: center;
-}
 
 @media (max-width: 600px) {
     .skills {
